@@ -1,6 +1,20 @@
 # Agrirobot Navigation
 
 Defines the ROS2 Navigation setups for the zinger 4 wheel steering robot
+
+### Gazebo Ignition Environment
+
+| ![Image 1](media/pictures/g1.png) | ![Image 2](media/pictures/g2.png) | ![Image 3](media/pictures/g3.png) |
+|:-----------------------------:|:-----------------------------:|:-----------------------------:|
+
+### Rviz2
+
+| ![Image 4](media/pictures/r1.png) | ![Image 5](media/pictures/r2.png) | ![Image 6](media/pictures/r3.png) |
+|:-----------------------------:|:-----------------------------:|:-----------------------------:|
+
+### Autonomy task
+[![Video Thumbnail](media/pictures/g3.png)](media/videos/ATask1.mp4)
+
 ## Dependencies
 
 The configurations in this repository assume you have the following prerequisites installed on the
@@ -8,7 +22,8 @@ device on which you want to run this code. That device might be an Ubuntu machin
 robot using Raspberry Pi OS.
 
 1. [ROS humble](https://docs.ros.org/en/humble/Releases/Release-Humble-Hawksbill.html) 
-2. Ubuntu 22.04
+2. Gazebo Ignition
+3. Ubuntu 22.04
 ## Contents
 
 This repository contains different folders for the different parts of the navigation and SLAM configuration
