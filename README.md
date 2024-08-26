@@ -13,7 +13,7 @@ Defines the ROS2 Navigation setups for the zinger 4 wheel steering robot
 |:-----------------------------:|:-----------------------------:|:-----------------------------:|
 
 ### Autonomy task
-[![Video Thumbnail](media/pictures/g3.png)](media/videos/ATask1.mp4)
+[![Video Thumbnail](media/pictures/g3.png)](media/videos/ATask.mp4)
 
 ## Dependencies
 
