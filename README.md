@@ -1,7 +1,14 @@
-# Agritech Nav
+# Agrirobot Navigation
 
-Defines the ROS2 Nav and SLAM setups for the zinger 4 wheel steering robot
+Defines the ROS2 Navigation setups for the zinger 4 wheel steering robot
+## Dependencies
 
+The configurations in this repository assume you have the following prerequisites installed on the
+device on which you want to run this code. That device might be an Ubuntu machine or a physical
+robot using Raspberry Pi OS.
+
+1. [ROS humble](https://docs.ros.org/en/humble/Releases/Release-Humble-Hawksbill.html) 
+2. Ubuntu 22.04
 ## Contents
 
 This repository contains different folders for the different parts of the navigation and SLAM configuration
@@ -63,4 +70,10 @@ In order to launch the SLAM stack in the Gazebo simulator use
 When using RViz to visualize the robot and the navigation stack, make sure to set the fixed frame to
 `map`, otherwise there will be no navigation information available.
 
-At the moment the configuration for localization is untested and might not work as expected.
+### Acknowledgements
+
+This is project is built upon :
+
+1. [Petrik van der Velde's project](https://github.com/pvandervelde/zinger_nav.git)
+2. [The humming bird's project](https://github.com/thehummingbird/nav2_demo_turtlebot3.git)
+3. [Nav2](https://docs.nav2.org/index.html)
